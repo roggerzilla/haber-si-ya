@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <tittle> otro directorio </title>
+</head>
+
+<body>
+    <ul>
+        <li><a href="index.html">inicio</a></li>
+        
+    </ul>
+<h1> contanto</h1>
+<form action="procesa.php" method="POST">
+<label >nombre </label>
+<input type="text" placeholder="escribe tu nombre" name="nombre">
+<br>
+<label for="correo">correo</label>
+<input type="email" name="correo" value="@gmail.com" required>
+<br>
+<label for="genero">Genero</label>
+<input type="radio" name="genero" value="F" checked>Femenino
+<input type="radio" name="genero" value="M">Masculino
+<br>
+<input type="checkbox" name="boletin" value="1">
+<label for="boletin">recibir boletin</label>
+<br>
+<label for="carrera">Carrera</label>
+<select name="carerra">
+    <option value="compu">Ing en computacion</option>
+    <option value="info">Ing en informatica</option>
+</select>
+<br>
+<label for="pass">contraseña</label>
+<input type="password" name="pass">
+<br>
+<label for="fecha">fecha de nacimiento</label>
+<input type="date" name="fecha">
+<br>
+<label for="promedio">promedio</label>
+<input type="number" name="promedio" min="60" max="100">
+<br>
+<input type="hidden" name="escondido" value="hola">
+<br>
+<label for="comentario">comentario</label> <br>
+<textarea name="comentario" cols="30" rows="10"></textarea>
+<br>
+<button type="submit">enviar</button>
+<button type="rest">Limpiar</button>
+</form>
+</body>
+</html>
